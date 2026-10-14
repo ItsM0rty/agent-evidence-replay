@@ -1,0 +1,32 @@
+{
+  "observations": [
+    {
+      "event": "parent",
+      "collector": "runtime",
+      "kind": "delegation",
+      "attribution": "attributed",
+      "agent": "calendar-agent",
+      "owner": "alice",
+      "parent_event": null,
+      "parent_agent": null,
+      "parent_link": "none"
+    },
+    {
+      "event": "child",
+      "collector": "runtime",
+      "kind": "tool",
+      "attribution": "attributed",
+      "agent": "mail-agent",
+      "owner": "alice",
+      "parent_event": "parent",
+      "parent_agent": "calendar-agent",
+      "parent_link": "linked"
+    }
+  ],
+  "coverage": {
+    "runtime": {
+      "telemetry": "live",
+      "reason": "complete_observed_window"
+    }
+  }
+}

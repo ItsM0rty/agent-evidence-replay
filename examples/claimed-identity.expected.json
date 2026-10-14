@@ -1,0 +1,32 @@
+{
+  "observations": [
+    {
+      "event": "one",
+      "collector": "runtime",
+      "kind": "tool",
+      "attribution": "attributed",
+      "agent": "mail-agent",
+      "owner": "alice",
+      "parent_event": null,
+      "parent_agent": null,
+      "parent_link": "none"
+    },
+    {
+      "event": "two",
+      "collector": "runtime",
+      "kind": "tool",
+      "attribution": "unknown",
+      "agent": null,
+      "owner": null,
+      "parent_event": null,
+      "parent_agent": null,
+      "parent_link": "none"
+    }
+  ],
+  "coverage": {
+    "runtime": {
+      "telemetry": "live",
+      "reason": "complete_observed_window"
+    }
+  }
+}

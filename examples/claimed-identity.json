@@ -1,0 +1,11 @@
+{
+  "now": 100,
+  "bindings": [
+    {"collector": "runtime", "session": "mail", "agent": "mail-agent", "owner": "alice"}
+  ],
+  "events": [
+    {"id": "one", "collector": "runtime", "session": "mail", "sequence": 1, "kind": "tool", "claimed_agent": "administrator-agent"},
+    {"id": "two", "collector": "runtime", "session": "unregistered", "sequence": 2, "kind": "tool", "claimed_agent": "mail-agent"}
+  ],
+  "heartbeats": {"runtime": {"at": 100, "last_sequence": 2}}
+}

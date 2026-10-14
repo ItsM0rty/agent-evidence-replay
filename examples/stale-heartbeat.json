@@ -1,0 +1,11 @@
+{
+  "now": 100,
+  "max_age": 30,
+  "bindings": [
+    {"collector": "runtime", "session": "mail", "agent": "mail-agent", "owner": "alice"}
+  ],
+  "events": [
+    {"id": "one", "collector": "runtime", "session": "mail", "sequence": 1, "kind": "tool"}
+  ],
+  "heartbeats": {"runtime": {"at": 60, "last_sequence": 1}}
+}

@@ -1,0 +1,12 @@
+{
+  "now": 100,
+  "bindings": [
+    {"collector": "runtime", "session": "calendar", "agent": "calendar-agent", "owner": "alice"},
+    {"collector": "runtime", "session": "mail", "agent": "mail-agent", "owner": "alice"}
+  ],
+  "events": [
+    {"id": "parent", "collector": "runtime", "session": "calendar", "sequence": 1, "kind": "delegation"},
+    {"id": "child", "collector": "runtime", "session": "mail", "sequence": 2, "kind": "tool", "parent": "parent"}
+  ],
+  "heartbeats": {"runtime": {"at": 100, "last_sequence": 2}}
+}

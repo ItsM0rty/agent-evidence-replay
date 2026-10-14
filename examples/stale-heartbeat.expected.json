@@ -1,0 +1,21 @@
+{
+  "observations": [
+    {
+      "event": "one",
+      "collector": "runtime",
+      "kind": "tool",
+      "attribution": "attributed",
+      "agent": "mail-agent",
+      "owner": "alice",
+      "parent_event": null,
+      "parent_agent": null,
+      "parent_link": "none"
+    }
+  ],
+  "coverage": {
+    "runtime": {
+      "telemetry": "unknown",
+      "reason": "missing_or_stale_heartbeat"
+    }
+  }
+}
